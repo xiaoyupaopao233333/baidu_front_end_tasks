@@ -56,10 +56,65 @@ list-style-type: none;
 }
 
 #table_1 td, th {
-    border: 1px solid #dddddd;
+    
     text-align: left;
+    width:300px;
 }
 
 #table_1 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+#first-row {
+	background-color: #000000;
+    color: #ffffff;
+}
+
+#footer {
+	line-height: 90px;
+    height: 90px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+
+.block {
+	margin-left: 30%;
+}
+.block label {
+	display: inline-block;
+	width: 140px; 
+	text-align: right;
+	margin:10px;
+}
+.block input[type="text"]{
+	margin:10px;
+	width: 180px;
+}
+
+#textarea-label {
+	vertical-align: top;
+	text-align: right;
+}
+.block textarea{
+	margin:10px;
+	width: 500px;
+	height: 200px;
+	display: inline-block;
+}
+
+#form-style #submit-button {
+	text-align: center;
+}
+
+#form-style button {
+	width: 90%;
+	background-color: #2661F7;
+	border-radius: 5px;
+	height: 40px;
+	color: #ffffff;
+}
+#no-border-input {
+	border:0;
+	outline: none
 }
